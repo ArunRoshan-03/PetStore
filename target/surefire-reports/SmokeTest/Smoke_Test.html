@@ -1,0 +1,160 @@
+<html>
+<head>
+<title>TestNG:  Smoke_Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Smoke_Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>16/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Apr 25 12:25:25 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>110 seconds (110272 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.web.application.automation.testscripts.ReptilesTest.reptilesSearchText()'><b>reptilesSearchText</b><br>Test class: com.web.application.automation.testscripts.ReptilesTest<br>Parameters: Manx</td>
+<td></td>
+<td>6</td>
+<td>com.web.application.automation.testscripts.ReptilesTest@5afa3c9</td></tr>
+<tr>
+<td title='com.web.application.automation.testscripts.DogTest.dogSearchText()'><b>dogSearchText</b><br>Test class: com.web.application.automation.testscripts.DogTest<br>Parameters: Amazon Parrot</td>
+<td></td>
+<td>6</td>
+<td>com.web.application.automation.testscripts.DogTest@3ba987b8</td></tr>
+<tr>
+<td title='com.web.application.automation.testscripts.CatTest.catSearchText()'><b>catSearchText</b><br>Test class: com.web.application.automation.testscripts.CatTest<br>Parameters: Chihuahua</td>
+<td></td>
+<td>6</td>
+<td>com.web.application.automation.testscripts.CatTest@5f049ea1</td></tr>
+<tr>
+<td title='com.web.application.automation.testscripts.BirdsTest.birdsSearchText()'><b>birdsSearchText</b><br>Test class: com.web.application.automation.testscripts.BirdsTest<br>Parameters: Koi</td>
+<td></td>
+<td>6</td>
+<td>com.web.application.automation.testscripts.BirdsTest@35dab4eb</td></tr>
+<tr>
+<td title='com.web.application.automation.testscripts.CatTest.catSearchText()'><b>catSearchText</b><br>Test class: com.web.application.automation.testscripts.CatTest<br>Parameters: Labrador Retriever</td>
+<td></td>
+<td>6</td>
+<td>com.web.application.automation.testscripts.CatTest@5f049ea1</td></tr>
+<tr>
+<td title='com.web.application.automation.testscripts.CatTest.catSearchText()'><b>catSearchText</b><br>Test class: com.web.application.automation.testscripts.CatTest<br>Parameters: Poodle</td>
+<td></td>
+<td>6</td>
+<td>com.web.application.automation.testscripts.CatTest@5f049ea1</td></tr>
+<tr>
+<td title='com.web.application.automation.testscripts.FishTest.fishSearchText()'><b>fishSearchText</b><br>Test class: com.web.application.automation.testscripts.FishTest<br>Parameters: Iguana</td>
+<td></td>
+<td>6</td>
+<td>com.web.application.automation.testscripts.FishTest@196a42c3</td></tr>
+<tr>
+<td title='com.web.application.automation.testscripts.BirdsTest.birdsSearchText()'><b>birdsSearchText</b><br>Test class: com.web.application.automation.testscripts.BirdsTest<br>Parameters: Tiger Shark</td>
+<td></td>
+<td>7</td>
+<td>com.web.application.automation.testscripts.BirdsTest@35dab4eb</td></tr>
+<tr>
+<td title='com.web.application.automation.testscripts.BirdsTest.birdsSearchText()'><b>birdsSearchText</b><br>Test class: com.web.application.automation.testscripts.BirdsTest<br>Parameters: Goldfish</td>
+<td></td>
+<td>6</td>
+<td>com.web.application.automation.testscripts.BirdsTest@35dab4eb</td></tr>
+<tr>
+<td title='com.web.application.automation.testscripts.FishTest.fishSearchText()'><b>fishSearchText</b><br>Test class: com.web.application.automation.testscripts.FishTest<br>Parameters: Rattlesnake</td>
+<td></td>
+<td>7</td>
+<td>com.web.application.automation.testscripts.FishTest@196a42c3</td></tr>
+<tr>
+<td title='com.web.application.automation.testscripts.ReptilesTest.reptilesSearchText()'><b>reptilesSearchText</b><br>Test class: com.web.application.automation.testscripts.ReptilesTest<br>Parameters: Persian</td>
+<td></td>
+<td>6</td>
+<td>com.web.application.automation.testscripts.ReptilesTest@5afa3c9</td></tr>
+<tr>
+<td title='com.web.application.automation.testscripts.BirdsTest.birdsSearchText()'><b>birdsSearchText</b><br>Test class: com.web.application.automation.testscripts.BirdsTest<br>Parameters: Angelfish</td>
+<td></td>
+<td>6</td>
+<td>com.web.application.automation.testscripts.BirdsTest@35dab4eb</td></tr>
+<tr>
+<td title='com.web.application.automation.testscripts.DogTest.dogSearchText()'><b>dogSearchText</b><br>Test class: com.web.application.automation.testscripts.DogTest<br>Parameters: Finch</td>
+<td></td>
+<td>6</td>
+<td>com.web.application.automation.testscripts.DogTest@3ba987b8</td></tr>
+<tr>
+<td title='com.web.application.automation.testscripts.CatTest.catSearchText()'><b>catSearchText</b><br>Test class: com.web.application.automation.testscripts.CatTest<br>Parameters: Bulldog</td>
+<td></td>
+<td>6</td>
+<td>com.web.application.automation.testscripts.CatTest@5f049ea1</td></tr>
+<tr>
+<td title='com.web.application.automation.testscripts.CatTest.catSearchText()'><b>catSearchText</b><br>Test class: com.web.application.automation.testscripts.CatTest<br>Parameters: Dalmation</td>
+<td></td>
+<td>6</td>
+<td>com.web.application.automation.testscripts.CatTest@5f049ea1</td></tr>
+<tr>
+<td title='com.web.application.automation.testscripts.CatTest.catSearchText()'><b>catSearchText</b><br>Test class: com.web.application.automation.testscripts.CatTest<br>Parameters: Golden Retriever</td>
+<td></td>
+<td>6</td>
+<td>com.web.application.automation.testscripts.CatTest@5f049ea1</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">2 suites</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-SmokeTest" class="navigator-link">
+              <span class="suite-name border-passed">SmokeTest</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-SmokeTest" class="navigator-link ">
+                    <span>C:\Users\arunroshan.r\Automation by Selenium\com.pet.store\src\main\resources\suitefiles\smoke_test.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-SmokeTest" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-SmokeTest" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-SmokeTest" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-SmokeTest" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-SmokeTest" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-SmokeTest" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SmokeTest" class="hide-methods passed suite-SmokeTest"> (hide)</a> <!-- hide-methods passed suite-SmokeTest -->
+                      <a href="#" panel-name="suite-SmokeTest" class="show-methods passed suite-SmokeTest"> (show)</a> <!-- show-methods passed suite-SmokeTest -->
+                    </span>
+                    <div class="method-list-content passed suite-SmokeTest">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmokeTest" title="com.web.application.automation.testscripts.BirdsTest" class="method navigator-link" hash-for-method="birdsSearchText(Koi)">birdsSearchText(Koi)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmokeTest" title="com.web.application.automation.testscripts.BirdsTest" class="method navigator-link" hash-for-method="birdsSearchText(Tiger Shark)">birdsSearchText(Tiger Shark)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmokeTest" title="com.web.application.automation.testscripts.BirdsTest" class="method navigator-link" hash-for-method="birdsSearchText(Goldfish)">birdsSearchText(Goldfish)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmokeTest" title="com.web.application.automation.testscripts.BirdsTest" class="method navigator-link" hash-for-method="birdsSearchText(Angelfish)">birdsSearchText(Angelfish)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmokeTest" title="com.web.application.automation.testscripts.CatTest" class="method navigator-link" hash-for-method="catSearchText(Chihuahua)">catSearchText(Chihuahua)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmokeTest" title="com.web.application.automation.testscripts.CatTest" class="method navigator-link" hash-for-method="catSearchText(Labrador Retriever)">catSearchText(Labrador Retriever)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmokeTest" title="com.web.application.automation.testscripts.CatTest" class="method navigator-link" hash-for-method="catSearchText(Poodle)">catSearchText(Poodle)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmokeTest" title="com.web.application.automation.testscripts.CatTest" class="method navigator-link" hash-for-method="catSearchText(Bulldog)">catSearchText(Bulldog)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmokeTest" title="com.web.application.automation.testscripts.CatTest" class="method navigator-link" hash-for-method="catSearchText(Dalmation)">catSearchText(Dalmation)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmokeTest" title="com.web.application.automation.testscripts.CatTest" class="method navigator-link" hash-for-method="catSearchText(Golden Retriever)">catSearchText(Golden Retriever)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmokeTest" title="com.web.application.automation.testscripts.DogTest" class="method navigator-link" hash-for-method="dogSearchText(Amazon Parrot)">dogSearchText(Amazon Parrot)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmokeTest" title="com.web.application.automation.testscripts.DogTest" class="method navigator-link" hash-for-method="dogSearchText(Finch)">dogSearchText(Finch)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmokeTest" title="com.web.application.automation.testscripts.FishTest" class="method navigator-link" hash-for-method="fishSearchText(Iguana)">fishSearchText(Iguana)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmokeTest" title="com.web.application.automation.testscripts.FishTest" class="method navigator-link" hash-for-method="fishSearchText(Rattlesnake)">fishSearchText(Rattlesnake)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmokeTest" title="com.web.application.automation.testscripts.ReptilesTest" class="method navigator-link" hash-for-method="reptilesSearchText(Manx)">reptilesSearchText(Manx)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmokeTest" title="com.web.application.automation.testscripts.ReptilesTest" class="method navigator-link" hash-for-method="reptilesSearchText(Persian)">reptilesSearchText(Persian)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SmokeTest -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SmokeTest" class="panel SmokeTest">
+          <div class="suite-SmokeTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.web.application.automation.testscripts.ReptilesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="reptilesSearchText(Manx)">
+                  </a> <!-- reptilesSearchText(Manx) -->
+                  <span class="method-name">reptilesSearchText</span>
+                  <span class="parameters">(Manx)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="reptilesSearchText(Persian)">
+                  </a> <!-- reptilesSearchText(Persian) -->
+                  <span class="method-name">reptilesSearchText</span>
+                  <span class="parameters">(Persian)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SmokeTest-class-passed -->
+          <div class="suite-SmokeTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.web.application.automation.testscripts.DogTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dogSearchText(Amazon Parrot)">
+                  </a> <!-- dogSearchText(Amazon Parrot) -->
+                  <span class="method-name">dogSearchText</span>
+                  <span class="parameters">(Amazon Parrot)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dogSearchText(Finch)">
+                  </a> <!-- dogSearchText(Finch) -->
+                  <span class="method-name">dogSearchText</span>
+                  <span class="parameters">(Finch)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SmokeTest-class-passed -->
+          <div class="suite-SmokeTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.web.application.automation.testscripts.CatTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="catSearchText(Chihuahua)">
+                  </a> <!-- catSearchText(Chihuahua) -->
+                  <span class="method-name">catSearchText</span>
+                  <span class="parameters">(Chihuahua)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="catSearchText(Labrador Retriever)">
+                  </a> <!-- catSearchText(Labrador Retriever) -->
+                  <span class="method-name">catSearchText</span>
+                  <span class="parameters">(Labrador Retriever)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="catSearchText(Poodle)">
+                  </a> <!-- catSearchText(Poodle) -->
+                  <span class="method-name">catSearchText</span>
+                  <span class="parameters">(Poodle)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="catSearchText(Bulldog)">
+                  </a> <!-- catSearchText(Bulldog) -->
+                  <span class="method-name">catSearchText</span>
+                  <span class="parameters">(Bulldog)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="catSearchText(Dalmation)">
+                  </a> <!-- catSearchText(Dalmation) -->
+                  <span class="method-name">catSearchText</span>
+                  <span class="parameters">(Dalmation)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="catSearchText(Golden Retriever)">
+                  </a> <!-- catSearchText(Golden Retriever) -->
+                  <span class="method-name">catSearchText</span>
+                  <span class="parameters">(Golden Retriever)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SmokeTest-class-passed -->
+          <div class="suite-SmokeTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.web.application.automation.testscripts.FishTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fishSearchText(Iguana)">
+                  </a> <!-- fishSearchText(Iguana) -->
+                  <span class="method-name">fishSearchText</span>
+                  <span class="parameters">(Iguana)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fishSearchText(Rattlesnake)">
+                  </a> <!-- fishSearchText(Rattlesnake) -->
+                  <span class="method-name">fishSearchText</span>
+                  <span class="parameters">(Rattlesnake)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SmokeTest-class-passed -->
+          <div class="suite-SmokeTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.web.application.automation.testscripts.BirdsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="birdsSearchText(Koi)">
+                  </a> <!-- birdsSearchText(Koi) -->
+                  <span class="method-name">birdsSearchText</span>
+                  <span class="parameters">(Koi)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="birdsSearchText(Tiger Shark)">
+                  </a> <!-- birdsSearchText(Tiger Shark) -->
+                  <span class="method-name">birdsSearchText</span>
+                  <span class="parameters">(Tiger Shark)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="birdsSearchText(Goldfish)">
+                  </a> <!-- birdsSearchText(Goldfish) -->
+                  <span class="method-name">birdsSearchText</span>
+                  <span class="parameters">(Goldfish)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="birdsSearchText(Angelfish)">
+                  </a> <!-- birdsSearchText(Angelfish) -->
+                  <span class="method-name">birdsSearchText</span>
+                  <span class="parameters">(Angelfish)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SmokeTest-class-passed -->
+        </div> <!-- panel SmokeTest -->
+        <div panel-name="suite-Company_setup" class="panel Company_setup">
+        </div> <!-- panel Company_setup -->
+        <div panel-name="test-xml-SmokeTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\arunroshan.r\Automation by Selenium\com.pet.store\src\main\resources\suitefiles\smoke_test.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;SmokeTest&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Smoke_Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.web.application.automation.testscripts.FishTest&quot;/&gt;
+      &lt;class name=&quot;com.web.application.automation.testscripts.BirdsTest&quot;/&gt;
+      &lt;class name=&quot;com.web.application.automation.testscripts.DogTest&quot;/&gt;
+      &lt;class name=&quot;com.web.application.automation.testscripts.CatTest&quot;/&gt;
+      &lt;class name=&quot;com.web.application.automation.testscripts.ReptilesTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Smoke_Test --&gt;
+&lt;/suite&gt; &lt;!-- SmokeTest --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-Company_setup" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\arunroshan.r\Automation by Selenium\com.pet.store\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Company setup&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;suite-files&gt;
+    &lt;suite-file path=&quot;./src/main/resources/suitefiles/smoke_test.xml&quot;/&gt;
+  &lt;/suite-files&gt;
+&lt;/suite&gt; &lt;!-- Company setup --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SmokeTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SmokeTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Smoke_Test (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Company_setup" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Company setup</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SmokeTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SmokeTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Company_setup" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Company setup</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SmokeTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SmokeTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SmokeTest');
+function tableData_SmokeTest() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'birdsSearchText')
+data.setCell(0, 2, 'com.web.application.automation.testscripts.BirdsTest')
+data.setCell(0, 3, 7168);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'fishSearchText')
+data.setCell(1, 2, 'com.web.application.automation.testscripts.FishTest')
+data.setCell(1, 3, 7026);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'birdsSearchText')
+data.setCell(2, 2, 'com.web.application.automation.testscripts.BirdsTest')
+data.setCell(2, 3, 6894);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'catSearchText')
+data.setCell(3, 2, 'com.web.application.automation.testscripts.CatTest')
+data.setCell(3, 3, 6886);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'catSearchText')
+data.setCell(4, 2, 'com.web.application.automation.testscripts.CatTest')
+data.setCell(4, 3, 6879);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'dogSearchText')
+data.setCell(5, 2, 'com.web.application.automation.testscripts.DogTest')
+data.setCell(5, 3, 6869);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'birdsSearchText')
+data.setCell(6, 2, 'com.web.application.automation.testscripts.BirdsTest')
+data.setCell(6, 3, 6847);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'catSearchText')
+data.setCell(7, 2, 'com.web.application.automation.testscripts.CatTest')
+data.setCell(7, 3, 6834);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'birdsSearchText')
+data.setCell(8, 2, 'com.web.application.automation.testscripts.BirdsTest')
+data.setCell(8, 3, 6760);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'catSearchText')
+data.setCell(9, 2, 'com.web.application.automation.testscripts.CatTest')
+data.setCell(9, 3, 6734);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'reptilesSearchText')
+data.setCell(10, 2, 'com.web.application.automation.testscripts.ReptilesTest')
+data.setCell(10, 3, 6728);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'reptilesSearchText')
+data.setCell(11, 2, 'com.web.application.automation.testscripts.ReptilesTest')
+data.setCell(11, 3, 6717);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'catSearchText')
+data.setCell(12, 2, 'com.web.application.automation.testscripts.CatTest')
+data.setCell(12, 3, 6691);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'fishSearchText')
+data.setCell(13, 2, 'com.web.application.automation.testscripts.FishTest')
+data.setCell(13, 3, 6642);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'dogSearchText')
+data.setCell(14, 2, 'com.web.application.automation.testscripts.DogTest')
+data.setCell(14, 3, 6562);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'catSearchText')
+data.setCell(15, 2, 'com.web.application.automation.testscripts.CatTest')
+data.setCell(15, 3, 6493);
+window.suiteTableData['SmokeTest']= { tableData: data, tableDiv: 'times-div-SmokeTest'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-SmokeTest">
+              </div> <!-- times-div-SmokeTest -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Company_setup" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Company setup</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Company_setup');
+function tableData_Company_setup() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['Company_setup']= { tableData: data, tableDiv: 'times-div-Company_setup'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 0 ms</span>
+              <div id="times-div-Company_setup">
+              </div> <!-- times-div-Company_setup -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SmokeTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SmokeTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Company_setup" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Company setup</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SmokeTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.web.application.automation.testscripts.ReptilesTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.web.application.automation.testscripts.DogTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.web.application.automation.testscripts.CatTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.web.application.automation.testscripts.BirdsTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Company_setup" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SmokeTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.web.application.automation.testscripts.FishTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">fishSearchText(Rattlesnake)</span>
+                <span class="method-start">8574 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fishSearchText(Iguana)</span>
+                <span class="method-start">15603 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.web.application.automation.testscripts.BirdsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">birdsSearchText(Angelfish)</span>
+                <span class="method-start">22350 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">birdsSearchText(Tiger Shark)</span>
+                <span class="method-start">29245 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">birdsSearchText(Koi)</span>
+                <span class="method-start">36414 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">birdsSearchText(Goldfish)</span>
+                <span class="method-start">43261 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.web.application.automation.testscripts.DogTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">dogSearchText(Amazon Parrot)</span>
+                <span class="method-start">50077 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dogSearchText(Finch)</span>
+                <span class="method-start">56640 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.web.application.automation.testscripts.CatTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">catSearchText(Bulldog)</span>
+                <span class="method-start">63563 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">catSearchText(Poodle)</span>
+                <span class="method-start">70254 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">catSearchText(Dalmation)</span>
+                <span class="method-start">77141 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">catSearchText(Golden Retriever)</span>
+                <span class="method-start">83975 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">catSearchText(Labrador Retriever)</span>
+                <span class="method-start">90855 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">catSearchText(Chihuahua)</span>
+                <span class="method-start">97349 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.web.application.automation.testscripts.ReptilesTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">reptilesSearchText(Manx)</span>
+                <span class="method-start">104139 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">reptilesSearchText(Persian)</span>
+                <span class="method-start">110857 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Company_setup" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

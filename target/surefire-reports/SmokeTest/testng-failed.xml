@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SmokeTest]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Smoke_Test(failed)" verbose="0">
+    <classes>
+      <class name="com.web.application.automation.testscripts.ReptilesTest">
+        <methods>
+          <include name="reptilesSearchText"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.web.application.automation.testscripts.ReptilesTest -->
+    </classes>
+  </test> <!-- Smoke_Test(failed) -->
+</suite> <!-- Failed suite [SmokeTest] -->

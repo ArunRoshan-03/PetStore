@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="20" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-25T12:25:25 IST" name="SmokeTest" finished-at="2023-04-25T12:27:15 IST" duration-ms="110272">
+    <groups>
+    </groups>
+    <test started-at="2023-04-25T12:25:25 IST" name="Smoke_Test" finished-at="2023-04-25T12:27:15 IST" duration-ms="110272">
+      <class name="com.web.application.automation.testscripts.CatTest">
+        <test-method signature="catSearchText(java.lang.String)[pri:0, instance:com.web.application.automation.testscripts.CatTest@5f049ea1]" started-at="2023-04-25T12:26:21 IST" name="catSearchText" data-provider="data" finished-at="2023-04-25T12:26:28 IST" duration-ms="6691" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bulldog]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- catSearchText -->
+        <test-method signature="catSearchText(java.lang.String)[pri:0, instance:com.web.application.automation.testscripts.CatTest@5f049ea1]" started-at="2023-04-25T12:26:28 IST" name="catSearchText" data-provider="data" finished-at="2023-04-25T12:26:35 IST" duration-ms="6886" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Poodle]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- catSearchText -->
+        <test-method signature="catSearchText(java.lang.String)[pri:0, instance:com.web.application.automation.testscripts.CatTest@5f049ea1]" started-at="2023-04-25T12:26:35 IST" name="catSearchText" data-provider="data" finished-at="2023-04-25T12:26:42 IST" duration-ms="6834" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dalmation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- catSearchText -->
+        <test-method signature="catSearchText(java.lang.String)[pri:0, instance:com.web.application.automation.testscripts.CatTest@5f049ea1]" started-at="2023-04-25T12:26:42 IST" name="catSearchText" data-provider="data" finished-at="2023-04-25T12:26:49 IST" duration-ms="6879" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Golden Retriever]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- catSearchText -->
+        <test-method signature="catSearchText(java.lang.String)[pri:0, instance:com.web.application.automation.testscripts.CatTest@5f049ea1]" started-at="2023-04-25T12:26:49 IST" name="catSearchText" data-provider="data" finished-at="2023-04-25T12:26:55 IST" duration-ms="6493" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Labrador Retriever]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- catSearchText -->
+        <test-method signature="catSearchText(java.lang.String)[pri:0, instance:com.web.application.automation.testscripts.CatTest@5f049ea1]" started-at="2023-04-25T12:26:55 IST" name="catSearchText" data-provider="data" finished-at="2023-04-25T12:27:02 IST" duration-ms="6734" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chihuahua]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- catSearchText -->
+      </class> <!-- com.web.application.automation.testscripts.CatTest -->
+      <class name="com.web.application.automation.testscripts.BirdsTest">
+        <test-method signature="birdsSearchText(java.lang.String)[pri:0, instance:com.web.application.automation.testscripts.BirdsTest@35dab4eb]" started-at="2023-04-25T12:25:40 IST" name="birdsSearchText" data-provider="data" finished-at="2023-04-25T12:25:47 IST" duration-ms="6894" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Angelfish]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- birdsSearchText -->
+        <test-method signature="birdsSearchText(java.lang.String)[pri:0, instance:com.web.application.automation.testscripts.BirdsTest@35dab4eb]" started-at="2023-04-25T12:25:47 IST" name="birdsSearchText" data-provider="data" finished-at="2023-04-25T12:25:54 IST" duration-ms="7168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tiger Shark]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- birdsSearchText -->
+        <test-method signature="birdsSearchText(java.lang.String)[pri:0, instance:com.web.application.automation.testscripts.BirdsTest@35dab4eb]" started-at="2023-04-25T12:25:54 IST" name="birdsSearchText" data-provider="data" finished-at="2023-04-25T12:26:01 IST" duration-ms="6847" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Koi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- birdsSearchText -->
+        <test-method signature="birdsSearchText(java.lang.String)[pri:0, instance:com.web.application.automation.testscripts.BirdsTest@35dab4eb]" started-at="2023-04-25T12:26:01 IST" name="birdsSearchText" data-provider="data" finished-at="2023-04-25T12:26:08 IST" duration-ms="6760" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Goldfish]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- birdsSearchText -->
+      </class> <!-- com.web.application.automation.testscripts.BirdsTest -->
+      <class name="com.web.application.automation.testscripts.FishTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.web.application.automation.testscripts.FishTest@196a42c3]" started-at="2023-04-25T12:25:18 IST" name="setUp" finished-at="2023-04-25T12:25:25 IST" duration-ms="7305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="fishSearchText(java.lang.String)[pri:0, instance:com.web.application.automation.testscripts.FishTest@196a42c3]" started-at="2023-04-25T12:25:26 IST" name="fishSearchText" data-provider="data" finished-at="2023-04-25T12:25:33 IST" duration-ms="7026" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rattlesnake]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fishSearchText -->
+        <test-method signature="fishSearchText(java.lang.String)[pri:0, instance:com.web.application.automation.testscripts.FishTest@196a42c3]" started-at="2023-04-25T12:25:33 IST" name="fishSearchText" data-provider="data" finished-at="2023-04-25T12:25:40 IST" duration-ms="6642" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Iguana]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fishSearchText -->
+      </class> <!-- com.web.application.automation.testscripts.FishTest -->
+      <class name="com.web.application.automation.testscripts.DogTest">
+        <test-method signature="dogSearchText(java.lang.String)[pri:0, instance:com.web.application.automation.testscripts.DogTest@3ba987b8]" started-at="2023-04-25T12:26:08 IST" name="dogSearchText" data-provider="data" finished-at="2023-04-25T12:26:14 IST" duration-ms="6562" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amazon Parrot]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dogSearchText -->
+        <test-method signature="dogSearchText(java.lang.String)[pri:0, instance:com.web.application.automation.testscripts.DogTest@3ba987b8]" started-at="2023-04-25T12:26:14 IST" name="dogSearchText" data-provider="data" finished-at="2023-04-25T12:26:21 IST" duration-ms="6869" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Finch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dogSearchText -->
+      </class> <!-- com.web.application.automation.testscripts.DogTest -->
+      <class name="com.web.application.automation.testscripts.ReptilesTest">
+        <test-method signature="reptilesSearchText(java.lang.String)[pri:0, instance:com.web.application.automation.testscripts.ReptilesTest@5afa3c9]" started-at="2023-04-25T12:27:02 IST" name="reptilesSearchText" data-provider="data" finished-at="2023-04-25T12:27:09 IST" duration-ms="6717" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Manx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reptilesSearchText -->
+        <test-method signature="reptilesSearchText(java.lang.String)[pri:0, instance:com.web.application.automation.testscripts.ReptilesTest@5afa3c9]" started-at="2023-04-25T12:27:09 IST" name="reptilesSearchText" data-provider="data" finished-at="2023-04-25T12:27:15 IST" duration-ms="6728" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Persian]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reptilesSearchText -->
+      </class> <!-- com.web.application.automation.testscripts.ReptilesTest -->
+    </test> <!-- Smoke_Test -->
+  </suite> <!-- SmokeTest -->
+  <suite started-at="2023-04-25T12:27:16 IST" name="Company setup" finished-at="2023-04-25T12:27:16 IST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- Company setup -->
+</testng-results>
